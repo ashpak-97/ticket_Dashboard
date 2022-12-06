@@ -1,0 +1,44 @@
+.container1{
+    width:70%;
+    margin:0 auto;
+    margin-top: 50px;
+}
+.form{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+    width:70%;
+    margin: 0 auto;
+    
+    gap:2rem;
+  
+   
+
+}
+.form1{
+    margin-top: 140px !important;
+    border: 1px solid#23BDB8;
+    padding:25px;
+    background-color:#F5FFFA ;
+}
+.lInput{
+  
+    padding: 10px;
+    border: 1px solid #1e2928;
+
+}
+.ticketform{
+    margin-top: 40px;
+}
+.btnsubmit{
+    background-color: #1e2928;
+    color:white;
+    margin-top: 20px;
+    border:none;
+    cursor: pointer;
+    width:200px;
+    padding:15px;
+    border-radius: 5px;
+}

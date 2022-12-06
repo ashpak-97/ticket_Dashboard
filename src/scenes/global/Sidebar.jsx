@@ -134,14 +134,14 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Customer List"
-              to="/team"
+              to="/customer"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Add New Customer"
-              to="/contacts"
+              to="/customerform"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -163,14 +163,14 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="List"
-              to="/form"
+              to="/ticket"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Add New"
-              to="/calendar"
+              to="/ticketform"
               icon={<CalendarTodayOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -192,14 +192,14 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="List"
-              to="/bar"
+              to="/project"
               icon={<BarChartOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Add New"
-              to="/pie"
+              to="/projectform"
               icon={<PieChartOutlineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -234,14 +234,14 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Staff"
-              to="/bar"
+              to="/staffs"
               icon={<BarChartOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Permissions"
-              to="/pie"
+              to="/permission"
               icon={<PieChartOutlineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
